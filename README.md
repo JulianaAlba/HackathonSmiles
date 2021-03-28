@@ -11,7 +11,21 @@ Além disso, ele também poderá contribuir para viagens de pessoas com deficiê
 ### Visão
 É direito de todos se divertir, ainda mais em lugares que contribuem com a acessibilidade, assim a médio prazo visamos alcançar o objetivo do Desenvolvimento Sustentável da Organização das Nações Unidas, na redução da desigualdade para pessoas com deficiência!
 
-![]( https://github.com/JulianaAlba/.../comoFunciona.jpg)
+![](imagens/comoFunciona.jpg)
+
+![](imagens/Cadastrar1.jpeg)
+![](imagens/Acessar2.jpeg)
+![](imagens/Menu3.jpeg)
+![](imagens/Simular4.jpeg)
+![](imagens/Simular4parte2.jpeg)
+![](imagens/Consultar5.jpeg)
+![](imagens/Contratar6.jpeg)
+![](imagens/7.1.jpeg)
+![](imagens/7.2.jpeg)
+![](imagens/7.3.jpeg)
+![](imagens/Incluir7.jpeg)
+
+
 
 ### Desenvolvimento
 O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open source para programação para dispositivos móveis. 
@@ -20,13 +34,13 @@ O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open
 [![Watch the video]( https://github.com/JulianaAlba/.../videoDemo.jpg)]( https://youtu.be/)
 
 ### Vídeo Pitch
-[![Watch the video]( https://github.com/JulianaAlba/.../videoPitch.jpg)]( https://youtu.be/)
+[![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoPitch.JPG)](https://www.youtube.com/watch?v=d7GmEPcjoqA)
 
 ### Time
 
 Nosso time é capacitado para desenvolver essa solução!
 
-![](https://github.com/JulianaAlba/.../time.jpg)
+![](imagens/time.jpg)
 
 
 
