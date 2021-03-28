@@ -40,7 +40,7 @@ O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open
 
 Nosso time é capacitado para desenvolver essa solução!
 
-![](imagens/time.JPG)
+![](imagens/time.jpeg)
 
 
 
