@@ -70,16 +70,9 @@ class _InclusaoState extends State<Inclusao> {
           padding: EdgeInsets.all(10),
 
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: <Widget>[
 
-              /*Image.asset(
-                "imagens/combustivel.png",
-                //height: 200,
-                //descobrir pq a imagem não modifica dentro de Scaffold
-                //fit: BoxFit.cover,
-              ),*/
 
               Padding(
                 padding: const EdgeInsets.only(top: 20),
@@ -106,13 +99,7 @@ class _InclusaoState extends State<Inclusao> {
                   decoration: InputDecoration(
                     labelText: "Restaurante acessível",
                   ),
-
-                  //habilitar ou desabilitar campo de TextField
                   enabled: true,
-                  //número máximo de caracteres, porém permite que a digitação continue no TextField
-                  //maxLength: 11,
-                  //como verdadeira, impede que seja digitado mais caracteres do que o definido anteriormente, ideal para cpf, tel
-                  //maxLengthEnforced: true,
 
                   style: TextStyle(
                     fontSize: 18,

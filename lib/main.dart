@@ -237,11 +237,9 @@ class HomePageState extends State<HomePage>
 
               //Não está operando, mas o onPressed serve para validar a cor
               onPressed: (){
-                // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    //chamando função anônima curta, com a próxima tela
                     builder: (context) => Menu(),
                   ),
                 );

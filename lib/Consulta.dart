@@ -27,16 +27,8 @@ class _ConsultaState extends State<Consulta> {
           padding: EdgeInsets.all(10),
 
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: <Widget>[
-
-              /*Image.asset(
-                "imagens/combustivel.png",
-                //height: 200,
-                //descobrir pq a imagem não modifica dentro de Scaffold
-                //fit: BoxFit.cover,
-              ),*/
 
               Padding(
                 padding: const EdgeInsets.only(top: 20),
@@ -169,11 +161,9 @@ class _ConsultaState extends State<Consulta> {
                 ),
 
                 onPressed: (){
-                  // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      //chamando função anônima curta, com a próxima tela
                       builder: (context) => Menu(),
                     ),
                   );
@@ -192,7 +182,6 @@ class _ConsultaState extends State<Consulta> {
       bottomNavigationBar: BottomAppBar(
         color: Color(0XFFFE7950),
         child: Padding(
-          //esse valor define o tamanho da barra inferior
           padding: EdgeInsets.all(20),
 
         ),

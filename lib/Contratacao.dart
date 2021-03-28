@@ -27,15 +27,11 @@ class _ContratacaoState extends State<Contratacao> {
           padding: EdgeInsets.all(10),
 
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: <Widget>[
 
               Image.asset(
                 "imagens/SmilesPacotes.PNG",
-                //height: 200,
-                //descobrir pq a imagem não modifica dentro de Scaffold
-                //fit: BoxFit.cover,
               ),
 
               Padding(
@@ -73,11 +69,9 @@ class _ContratacaoState extends State<Contratacao> {
 
 
                       onPressed: (){
-                        // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            //chamando função anônima curta, com a próxima tela
                             builder: (context) => Image.asset("imagens/pacoteum.PNG"),
                           ),
                         );
@@ -96,11 +90,9 @@ class _ContratacaoState extends State<Contratacao> {
                       ),
 
                       onPressed: (){
-                        // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            //chamando função anônima curta, com a próxima tela
                             builder: (context) => Image.asset("imagens/pacotedois.PNG"),
                           ),
                         );
@@ -119,11 +111,9 @@ class _ContratacaoState extends State<Contratacao> {
                       ),
 
                       onPressed: (){
-                        // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            //chamando função anônima curta, com a próxima tela
                             builder: (context) => Image.asset("imagens/pacotetres.PNG"),
                           ),
                         );
@@ -147,7 +137,6 @@ class _ContratacaoState extends State<Contratacao> {
       bottomNavigationBar: BottomAppBar(
         color: Color(0XFFFE7950),
         child: Padding(
-          //esse valor define o tamanho da barra inferior
           padding: EdgeInsets.all(20),
 
         ),

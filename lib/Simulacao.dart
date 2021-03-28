@@ -35,16 +35,8 @@ class _SimulacaoState extends State<Simulacao> {
           padding: EdgeInsets.all(10),
 
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: <Widget>[
-
-              /*Image.asset(
-                "imagens/combustivel.png",
-                //height: 200,
-                //descobrir pq a imagem não modifica dentro de Scaffold
-                //fit: BoxFit.cover,
-              ),*/
 
               Padding(
                 padding: const EdgeInsets.only(top: 20),
@@ -74,10 +66,6 @@ class _SimulacaoState extends State<Simulacao> {
 
                   //habilitar ou desabilitar campo de TextField
                   enabled: true,
-                  //número máximo de caracteres, porém permite que a digitação continue no TextField
-                  //maxLength: 11,
-                  //como verdadeira, impede que seja digitado mais caracteres do que o definido anteriormente, ideal para cpf, tel
-                  //maxLengthEnforced: true,
 
                   style: TextStyle(
                     fontSize: 18,
@@ -130,14 +118,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoRestauranteUm,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5),),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoRestauranteUm = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -157,14 +142,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoRestauranteDois,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoRestauranteDois = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -184,14 +166,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoHotel,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoHotel = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -211,14 +190,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoPraca,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoPraca = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -238,14 +214,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoMuseu,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoMuseu = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -265,14 +238,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoBoate,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoBoate= valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -292,14 +262,11 @@ class _SimulacaoState extends State<Simulacao> {
 
                 activeColor: Color.fromRGBO(230, 92, 0, 1),
                 value: _opcaoShopping,
-                //Usado quando os box iniciam selecionados, daí a cor do título e subtítulo seguem a cor do chexkbox (geralmente usados em campos desabilitados, lembrando que a variável declarada deve ser alterada para true)
-                //selected: true,
                 secondary: Icon(Icons.add_location_alt_outlined, color: Color(0XFF11a6a5)),
                 onChanged: (bool valorOpcao) {
                   setState(() {
                     _opcaoShopping = valorOpcao;
                   });
-                  //print("Checkbox ${valorOpcao.toString()}");
                 },
               ),
 
@@ -318,20 +285,15 @@ class _SimulacaoState extends State<Simulacao> {
                   ),
 
                 onPressed: (){
-                  // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      //chamando função anônima curta, com a próxima tela
                       builder: (context) => Consulta(),
                     ),
                   );
                 },
 
               ),
-
-
-
 
 
             ],
@@ -344,7 +306,6 @@ class _SimulacaoState extends State<Simulacao> {
       bottomNavigationBar: BottomAppBar(
         color: Color(0XFFFE7950),
         child: Padding(
-          //esse valor define o tamanho da barra inferior
           padding: EdgeInsets.all(20),
 
         ),
