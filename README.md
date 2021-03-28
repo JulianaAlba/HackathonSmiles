@@ -31,7 +31,7 @@ Além disso, ele também poderá contribuir para viagens de pessoas com deficiê
 O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open source para programação para dispositivos móveis. 
 
 ### Vídeo Demo
-[![Watch the video]( https://github.com/JulianaAlba/.../videoDemo.jpg)]( https://youtu.be/)
+[![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoDemo.JPG)](https://youtu.be/LsWefI4ZjOU)
 
 ### Vídeo Pitch
 [![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoPitch.JPG)](https://www.youtube.com/watch?v=d7GmEPcjoqA)
@@ -40,7 +40,7 @@ O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open
 
 Nosso time é capacitado para desenvolver essa solução!
 
-![](imagens/time.jpg)
+![](imagens/time.JPG)
 
 
 
