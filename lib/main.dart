@@ -4,6 +4,7 @@ import 'package:tourflix_app/Menu.dart';
 import 'package:tourflix_app/Inclusao.dart';
 import 'package:tourflix_app/Consulta.dart';
 import 'package:tourflix_app/Simulacao.dart';
+import 'package:tourflix_app/Contratacao.dart';
 
 
 void main() => runApp(MyApp());
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tela de Acesso',
+      title: 'Tela de Acesso/Cadastro',
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -101,6 +103,7 @@ class HomePageState extends State<HomePage>
             child: Column(
               children: <Widget>[
                 TextField(
+                  keyboardType: TextInputType.emailAddress,
                   style: TextStyle(color: Colors.white, height: 0.5),
                   decoration: InputDecoration(
                       prefixIcon: Icon(Icons.email),
@@ -113,6 +116,8 @@ class HomePageState extends State<HomePage>
                 Padding(
                   padding: const EdgeInsets.only(top: 16),
                   child: TextField(
+                    //keyboardType: TextInputType.visiblePassword,
+                    obscureText: true,
                     style: TextStyle(color: Colors.white, height: 0.5),
                     decoration: InputDecoration(
                         prefixIcon: Icon(Icons.vpn_key),
@@ -130,13 +135,18 @@ class HomePageState extends State<HomePage>
 
                 RaisedButton(
                   color: Colors.white,
+                  //borderRadius: BorderRadius.circular(24),
 
-                  child: Text("ACESSAR",
+                  child:
+                  Text("ACESSAR",
                     style: TextStyle(
                       color: Color(0XFFFE7950),
                       fontSize: 18,
+
                     ),
+
                   ),
+
 
                   onPressed: (){
                     // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
@@ -225,16 +235,17 @@ class HomePageState extends State<HomePage>
                 ),
               ),
 
-              /*onPressed: (){
+              //Não está operando, mas o onPressed serve para validar a cor
+              onPressed: (){
                 // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     //chamando função anônima curta, com a próxima tela
-                    builder: (context) => Cadastro(),
+                    builder: (context) => Menu(),
                   ),
                 );
-              },*/
+              },
 
             ),
 

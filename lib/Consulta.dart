@@ -4,6 +4,8 @@ import 'package:tourflix_app/Menu.dart';
 import 'package:tourflix_app/main.dart';
 import 'package:tourflix_app/Inclusao.dart';
 import 'package:tourflix_app/Simulacao.dart';
+import 'package:tourflix_app/Contratacao.dart';
+
 
 class Consulta extends StatefulWidget {
   @override
@@ -59,16 +61,31 @@ class _ConsultaState extends State<Consulta> {
 
                 child: Text("PRIMEIRO DIA:",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Color(0XFFFE7950),
                   ),
                 ),
               ),
 
-              Text("Manhã: Museu do Amanhã"),
-              Text("Tarde: Restaurante e Bar Garota de Ipanema"),
-              Text("Noite: Boox Club"),
+              Text("Manhã: Museu do Amanhã",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Tarde: Restaurante e Bar Garota de Ipanema.",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Noite: Boox Club",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
 
 
               Padding(
@@ -79,15 +96,30 @@ class _ConsultaState extends State<Consulta> {
 
                 child: Text("SEGUNDO DIA:",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Color(0XFFFE7950),
                   ),
                 ),
               ),
-              Text("Manhã: Museu Nacional UFRJ"),
-              Text("Tarde: Margutta Ipanema "),
-              Text("Noite: Galeria Café"),
+              Text("Manhã: Museu Nacional UFRJ",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Tarde: Margutta Ipanema",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Noite: Galeria Café",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
 
               Padding(
                 padding: const EdgeInsets.only(top: 20),
@@ -97,15 +129,30 @@ class _ConsultaState extends State<Consulta> {
 
                 child: Text("TERCEIRO DIA:",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Color(0XFFFE7950),
                   ),
                 ),
               ),
-              Text("Manhã: Shopping Ipanema Mall"),
-              Text("Tarde: Satyricon"),
-              Text("Noite: CAVE"),
+              Text("Manhã: Shopping Ipanema Mall",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Tarde: Satyricon",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
+              Text("Noite: CAVE",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0XFF11a6a5),
+                ),),
 
               Padding(
                 padding: const EdgeInsets.only(top: 20),

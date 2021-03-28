@@ -4,6 +4,7 @@ import 'package:tourflix_app/Menu.dart';
 import 'package:tourflix_app/main.dart';
 import 'package:tourflix_app/Inclusao.dart';
 import 'package:tourflix_app/Consulta.dart';
+import 'package:tourflix_app/Contratacao.dart';
 
 
 class Simulacao extends StatefulWidget {
@@ -315,6 +316,17 @@ class _SimulacaoState extends State<Simulacao> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+
+                onPressed: (){
+                  // 'push' abre uma tela que eu defino e 'pop' fecha a tela atual e abre uma nova
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      //chamando função anônima curta, com a próxima tela
+                      builder: (context) => Consulta(),
+                    ),
+                  );
+                },
 
               ),
 

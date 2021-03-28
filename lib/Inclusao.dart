@@ -4,6 +4,7 @@ import 'package:tourflix_app/Menu.dart';
 import 'package:tourflix_app/main.dart';
 import 'package:tourflix_app/Consulta.dart';
 import 'package:tourflix_app/Simulacao.dart';
+import 'package:tourflix_app/Contratacao.dart';
 
 
 class Inclusao extends StatefulWidget {
@@ -12,9 +13,52 @@ class Inclusao extends StatefulWidget {
 }
 
 class _InclusaoState extends State<Inclusao> {
+
+  void pressionarBotaoPDV( BuildContext context){
+    var alertDialog = AlertDialog(
+      title: Text("PDV SALVO"),
+      content: Text("Dados salvos para Pessoa com Deficiência Visual"),
+    );
+
+    showDialog(
+        context: context,
+        builder: (BuildContext context){
+          return alertDialog;
+        });
+  }
+
+  void pressionarBotaoPDA( BuildContext context){
+    var alertDialog = AlertDialog(
+      title: Text("PDA SALVO"),
+      content: Text("Dados salvos para Pessoa com Deficiência Auditiva"),
+    );
+
+    showDialog(
+        context: context,
+        builder: (BuildContext context){
+          return alertDialog;
+        });
+  }
+
+  void pressionarBotaoPDF( BuildContext context){
+    var alertDialog = AlertDialog(
+      title: Text("PDF SALVO"),
+      content: Text("Dados salvos para Pessoa com Deficiência Física"),
+    );
+
+    showDialog(
+        context: context,
+        builder: (BuildContext context){
+          return alertDialog;
+        });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+
+
 
       appBar: AppBar(
         backgroundColor: Color(0XFFFE7950),
@@ -206,13 +250,9 @@ class _InclusaoState extends State<Inclusao> {
                         ),
                       ),
 
-
-                      //onPressed: _calcular,
-
-                      /*onPressed: (){
-                      print("Valor Alcool ${_textEditingControllerAlcool.text}");
-                      print("Valor Gasolina ${_textEditingControllerGasolina.text}");
-                    },*/
+                      onPressed: (){
+                        pressionarBotaoPDV(context);
+                      },
 
                     ),
 
@@ -229,12 +269,17 @@ class _InclusaoState extends State<Inclusao> {
                         ),
                       ),
 
+                      onPressed: (){
+                        pressionarBotaoPDA(context);
+                      },
+
                     ),
 
 
                     Padding(
                         padding: EdgeInsets.all(10)
                     ),
+
 
                     RaisedButton(
                       color: Color(0XFFFE7950),
@@ -245,8 +290,11 @@ class _InclusaoState extends State<Inclusao> {
                         ),
                       ),
 
-                    ),
+                      onPressed: (){
+                        pressionarBotaoPDF(context);
+                      },
 
+                    ),
 
                 ]
               ),
@@ -257,6 +305,7 @@ class _InclusaoState extends State<Inclusao> {
           ),
 
         ),
+
 
       ),
 
@@ -271,5 +320,6 @@ class _InclusaoState extends State<Inclusao> {
 
 
     );
+
   }
 }
