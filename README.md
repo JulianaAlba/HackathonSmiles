@@ -25,13 +25,17 @@ Além disso, ele também poderá contribuir para viagens de pessoas com deficiê
 ![](imagens/7.3.jpeg)
 ![](imagens/Incluir7.jpeg)
 
-
+### Download do Aplicativo TourFlix
+[![](imagens/TourFlix.PNG)](https://github.com/JulianaAlba/HackathonSmiles/blob/master/APK-TourFlix.apk?raw=true)
 
 ### Desenvolvimento
-O desenvolvimento do app foi feito com *Flutter*, trata-se de um plataforma open source para programação para dispositivos móveis. 
+O desenvolvimento do app foi realizado com a IDE *Android Studio*, com o framework *Flutter* e com a linguagem *Dart*.
+
+### Download do Aplicativo TourFlix
+[![](imagens/TourFlix.PNG)](https://github.com/JulianaAlba/HackathonSmiles/blob/master/APK-TourFlix.apk?raw=true)
 
 ### Vídeo Demo
-[![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoDemo.JPG)](https://youtu.be/LsWefI4ZjOU)
+[![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoDemo.JPG)](https://www.youtube.com/watch?v=edQkh3iceBY)
 
 ### Vídeo Pitch
 [![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoPitch.JPG)](https://www.youtube.com/watch?v=d7GmEPcjoqA)
