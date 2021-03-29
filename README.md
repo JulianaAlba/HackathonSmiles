@@ -3,6 +3,7 @@
 
 ### Missão ###
 Nós temos como missão ajudar *turistas* a aproveitarem ao máximo sua experiência de viagem, fazendo os melhores passeios possíveis no seu tempo disponível, além de focarmos na inclusão de pessoas com diferentes deficiência, selecionando lugares que já tenham sido avaliados por outros turistas em relação a sua acessibilidade, em características como: rampas, elevador, textos em braile, intérprete de Libras, aceitação de cão guia e outros.
+
 ### Solução
 Uma plataforma vinculada ao sistema *Smiles* em que os usuários conseguirão descobrir os melhores pontos turísticos da região, para aproveitar ao máximo o seu tempo de viagem. 
 Para deixar a experiência mais personalizada, os usuários poderão selecionar suas preferências de locais, como: restaurante, parque, balada... E tempo de viagem, para montar seu próprio pacote.
@@ -30,9 +31,6 @@ Além disso, ele também poderá contribuir para viagens de pessoas com deficiê
 
 ### Desenvolvimento
 O desenvolvimento do app foi realizado com a IDE *Android Studio*, com o framework *Flutter* e com a linguagem *Dart*.
-
-### Download do Aplicativo TourFlix
-[![](imagens/TourFlix.PNG)](https://github.com/JulianaAlba/HackathonSmiles/blob/master/APK-TourFlix.apk?raw=true)
 
 ### Vídeo Demo
 [![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoDemo.JPG)](https://www.youtube.com/watch?v=edQkh3iceBY)
