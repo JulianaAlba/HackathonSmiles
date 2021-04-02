@@ -39,12 +39,13 @@ O desenvolvimento do app foi realizado com a IDE *Android Studio*, com o framewo
 [![Watch the video]( https://github.com/JulianaAlba/HackathonSmiles/blob/master/imagens/videoPitch.JPG)](https://www.youtube.com/watch?v=d7GmEPcjoqA)
 
 ### Time
-
 Nosso time é capacitado para desenvolver essa solução!
-
 ![](imagens/time.jpeg)
 
-
+### Encerramento Hackathon Smiles
+O nosso time obteve a 6º colocação com o projeto TourFlix, reconhecido em live de encerramento. 
+![](imagens/LiveDeReconhecimento.jpeg)
+![](imagens/AgradecimentoSmiles.jpeg)
 
 # tourflix_app
 
